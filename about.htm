@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - MamaPutOnline</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
+
+    <!-- NAVIGATION HEADER -->
+  <header class="sticky top-0 z-50 bg-[#8B0000] text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col md:flex-row items-center justify-between gap-4">
+            
+            <div class="flex items-center space-x-2 w-full md:w-auto justify-between md:justify-start">
+                <span class="text-3xl border rounded-2xl my-3 mx-5 py-2 px-1 bg-amber-400">MP</span>
+                <div class="flex flex-col">
+                  <span class="text-2xl font-black tracking-wider text-yellow-400">MamaPut<span class="text-white">Online</span></span>
+                  <span>Authentic Nigerian Kitchen</span>
+                  <button class="md:hidden text-white focus:outline-none">
+                    <i class="fas fa-bars text-xl"></i>
+                  </button>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="index.html" class="hover:text-yellow-400 transition-colors">Home</a>
+                <a href="about.htm" class="hover:text-yellow-400 transition-colors">About us</a>
+                <a href="customer.html" class="hover:text-yellow-400 transition-colors">Customer Service</a>
+                <a href="contact.html" class="hover:text-yellow-400 transition-colors">Contact Us</a>
+            </nav>
+
+            <div class="w-full md:w-64 relative">
+                <input type="text" placeholder="Search for your favorite meal..." class="w-full px-4 py-2 pl-10 pr-4 rounded-full text-gray-800 focus:outline-none focus:ring-2 focus:ring-yellow-400 text-sm">
+                <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+            </div>
+            
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="flex-grow">
+
+        <!-- 1. HERO SECTION: ABOUT US & STORY -->
+        <section class="relative bg-gradient-to-br from-[#8B0000] to-amber-950 text-white py-16 md:py-24 px-4 overflow-hidden">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                
+                <!-- Left Side: Visual Showcase -->
+                <div class="relative group rounded-3xl overflow-hidden shadow-2xl aspect-[4/3] bg-amber-900/30 border border-white/10">
+                    <img src="./asset/kitchen.jpg" 
+                         alt="Our modern clean state-of-the-art corporate kitchen" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-6">
+                        <span class="text-xs font-bold uppercase tracking-widest text-yellow-400 mb-1">Our Base Operations</span>
+                        <h3 class="text-lg font-bold text-white">Where the magic happens daily.</h3>
+                    </div>
+                </div>
+
+                <!-- Right Side: Background Story -->
+                <div cl`ass="space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 bg-yellow-400/20 rounded-full border border-yellow-400/30 text-yellow-300 text-xs font-bold uppercase tracking-wider">
+                        <i class="fa-solid fa-utensils"></i> Established June 10, 2023
+                    </div>
+                    <h1 class="text-4xl md:text-5xl font-black tracking-tight text-white">About Us</h1>
+                    <p class="text-base md:text-lg text-amber-100/90 leading-relaxed font-medium">
+                        MamaPutOnline was birthed out of a clear vision: making authentic, smoky local delicacies accessible to corporate professionals without losing that traditional home-cooked essence.
+                    </p>
+                    
+                    <div class="border-l-4 border-yellow-400 pl-4 space-y-4 my-2">
+                        <div>
+                            <h4 class="text-sm font-bold uppercase tracking-wider text-yellow-400">The Inception Challenges</h4>
+                            <p class="text-sm text-amber-50/80 mt-1">
+                                Launching a food logistics framework in Port Harcourt came with severe logistical bottlenecks. We faced heavy distribution challenges, preserving food temperature during rush hour gridlocks, and building digital trust with customers who were skeptical of buying local soups online.
+                            </p>
+                        </div>
+                        <div>
+                            <h4 class="text-sm font-bold uppercase tracking-wider text-emerald-400">The Road to Success</h4>
+                            <p class="text-sm text-amber-50/80 mt-1">
+                                By optimizing our heat-insulated courier delivery routes and committing to an exact 5-minute response matrix via WhatsApp, we converted initial hurdles into our greatest edge. Today, we confidently serve premium corporate hubs across the district.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 2. CEO PROFILE SECTION -->
+        <section class="py-16 px-4 bg-white border-b border-gray-100">
+            <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center">
+                
+                <!-- CEO Image -->
+                <div class="md:col-span-5 max-w-sm mx-auto md:max-w-none w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-xl bg-gray-100 border border-gray-200">
+                    <img src="./asset/IMG_2867.jpg" 
+                         alt="Our Founding Executive Chef and Chief Operations Officer" 
+                         class="w-full h-full object-cover">
+                </div>
+
+                <!-- CEO Background Story -->
+                <div class="md:col-span-7 space-y-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-[#8B0000]">Executive Leadership</span>
+                    <h2 class="text-3xl font-extrabold text-gray-900 tracking-tight">Meet Our Chief Executive Officer</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Bringing over a decade of administrative focus and a deep structural passion for culinary preservation, our CEO envisioned MamaPutOnline as more than a kitchen—it is a tech-driven logistics gateway built to streamline how modern Nigerians order meals.
+                    </p>
+                    <blockquote class="p-4 bg-amber-50/50 rounded-2xl border-l-4 border-amber-600 text-sm italic font-medium text-amber-950">
+                        "Consistency is the secret code. A customer must experience the exact same rich, deep, native flavor on their tenth order that blew them away on their very first try."
+                    </blockquote>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 3. TOP STAFF GALLERY SECTION -->
+        <section class="py-16 px-4 bg-gray-50">
+            <div class="max-w-7xl mx-auto space-y-10">
+                <div class="text-center max-w-xl mx-auto space-y-2">
+                    <h2 class="text-3xl font-extrabold text-gray-900 tracking-tight">Our Elite Culinary & Logistics Team</h2>
+                    <p class="text-sm text-gray-600">The specialized structural minds driving our daily processing and lightning-fast execution network.</p>
+                </div>
+
+                <!-- Responsive Team Grid Setup -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    
+                    <!-- Staff 1 -->
+                    <div class="bg-white rounded-2xl overflow-hidden p-4 shadow-sm border border-gray-100 text-center space-y-3">
+                        <div class="w-24 h-24 mx-auto rounded-full overflow-hidden bg-gray-100 border-2 border-amber-100">
+                            <img src="./asset/chef3.jpg">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-base">Amara Kalu</h4>
+                            <p class="text-xs text-[#8B0000] font-semibold tracking-wide">Head Culinary Strategist</p>
+                        </div>
+                    </div>
+
+                    <!-- Staff 2 -->
+                    <div class="bg-white rounded-2xl overflow-hidden p-4 shadow-sm border border-gray-100 text-center space-y-3">
+                        <div class="w-24 h-24 mx-auto rounded-full overflow-hidden bg-gray-100 border-2 border-amber-100">
+                            <img src="./asset/chef-2.jpg">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-base">Femi Adebayo</h4>
+                            <p class="text-xs text-[#8B0000] font-semibold tracking-wide">Director of Rapid Fleet Routing</p>
+                        </div>
+                    </div>
+
+                    <!-- Staff 3 -->
+                    <div class="bg-white rounded-2xl overflow-hidden p-4 shadow-sm border border-gray-100 text-center space-y-3">
+                        <div class="w-24 h-24 mx-auto rounded-full overflow-hidden bg-gray-100 border-2 border-amber-100">
+                            <img src="./asset/chef-1.jpg">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-base">Chidi Okafor</h4>
+                            <p class="text-xs text-[#8B0000] font-semibold tracking-wide">Customer Success Lead</p>
+                        </div>
+                    </div>
+
+                    <!-- Staff 4 -->
+                    <div class="bg-white rounded-2xl overflow-hidden p-4 shadow-sm border border-gray-100 text-center space-y-3">
+                        <div class="w-24 h-24 mx-auto rounded-full overflow-hidden bg-gray-100 border-2 border-amber-100">
+                            <img src="./asset/black-chef.jpg">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-base">Tunde Bakare</h4>
+                            <p class="text-xs text-[#8B0000] font-semibold tracking-wide">Quality Control Officer</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. AWARDED STAFF OF THE YEAR SECTION -->
+        <section class="py-16 px-4 bg-gradient-to-tr from-amber-50 to-orange-50/30">
+            <div class="max-w-5xl mx-auto bg-white rounded-3xl p-6 md:p-10 shadow-xl border border-amber-100 grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+                
+                <!-- Awardee Content Left -->
+                <div class="md:col-span-7 space-y-4 order-2 md:order-1">
+                    <div class="inline-flex items-center gap-1.5 text-xs font-bold text-amber-700 bg-amber-100 px-3 py-1 rounded-full">
+                        <i class="fa-solid fa-trophy"></i> Employee of the Year Recognition
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-extrabold text-gray-900 tracking-tight">The Engine of Our Flawless Kitchen Operations</h3>
+                    <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                        Our internal structural goals rely heavily on operational efficiency. This year's top honors go directly to our lead coordinator, who completely overhauled our bulk spice extraction timelines, cutting kitchen processing overheads by nearly 25%.
+                    </p>
+                    <div class="pt-2">
+                        <h5 class="text-base font-bold text-gray-900">Obinna Nwachukwu</h5>
+                        <p class="text-xs text-gray-500 font-medium">Recipient of the 2026 Executive Excellence Award</p>
+                    </div>
+                </div>
+
+                <!-- Awardee Image Right -->
+                <div class="md:col-span-5 order-1 md:order-2 w-full aspect-[4/5] sm:max-w-sm mx-auto md:max-w-none rounded-2xl overflow-hidden shadow-md bg-gray-50 border border-gray-100">
+                    <img src="./asset/award-chef.jpg" 
+                         alt="Our award winning executive kitchen team member" 
+                         class="w-full h-full object-cover">
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER ARCHITECTURE -->
+    <footer class="bg-gray-900 text-gray-400 py-6 px-4 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+            <p class="text-sm font-semibold text-white">&copy; 2026 MamaPutOnline. All rights reserved.</p>
+            <div class="flex space-x-6 text-lg">
+                <a href="#" class="hover:text-yellow-400 transition-colors"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="hover:text-yellow-400 transition-colors"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-yellow-400 transition-colors"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
