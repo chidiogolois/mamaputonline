@@ -1,3 +1,114 @@
-I am a developer in training .Build me a landing page of an online take-away Nigeria meal restaurant with the name MamaPutOnline. MamaPutOnline sells different types of cooked soups - egusi, ewedu, ora, edikaikong, okazi, ogbono and okro It also sells jollof rice, fried rice, porridge yam, porridge beans, fried plantain, abacha, nkwobi, fried chicken, kpomo , roosted plantain etc. 
-Menu Section Let the landing page have a - MamaPutOnline logo on the top left hand corner - Menu bar in dark red with sub titles like Products, Services, Customer Service, Contact Us - A search window on the very top right hand corner. Hero Section Below the menu bar section, let there be a hero section with a Call-To-Action button The hero section should occupy at least 30% of the vertical length of the page and 100% of the breathe of the page. A hero section should be vertically partitioned into two One side of the hero section should display the picture of a steaming, deliciously-cooked Nigerian dish / soup (with the right aspect ratio and with the right pixelization) The other side of the hero section should have boldly-written words in large print, lettering inviting people to not miss the opportunity to buy from your online store ****** Main Section Have a side panel on the left of the main section with items listed there and connecting users to the main section / product cards Have at least three rows on the landing page...on the right side of the side panel...with each row have 5 product cards The product cards should identify the product boldly, the quantity and the price in Naira and add a hover effect in the price text and background color changes to a different color from its original color. 
- Let the landing page also have a footer that has all the social media links ******** Build your page using HTML, CSS and / or Tailwind CSS and also use the IDE visual studio code ******* Make the site fully responsive for mobile users, since many take-away orders will come from smartphones. Ensure that the Menu and Footer are sticky
+***************Landing page*******************
+
+I am a Developer in training . Build me a landing page of an online take -away Nigeria meal restaurant with the name MamaPutOnline.
+
+MamaPutOnline sells different types of cooked soups - egusi, ewedu, ora, edikaikong, okazi, ogbono and okro
+It also sells jollof rice, fried rice, porridge yam, porridge beans, fried plantain, abacha, nkwobi, fried chicken, kpomo , roosted plantain etc.
+
+UI / UX
+Menu Section
+
+Let the landing page have a
+
+- MamaPutOnline logo on the top left hand corner
+
+- Menu bar in dark red with sub titles like Products, Services, Customer Service, Contact Us
+
+- A search window on the very top right hand corner.
+
+Hero Section
+
+Below the menu bar section, let there be a hero section with a Call-To-Action button
+
+The hero section should occupy at least 30% of the vertical length of the page and 100% of the breathe of the page.
+A hero section should be vertically partitioned into two
+
+One side of the hero section should display the picture of a steaming, deliciously-cooked Nigerian dish / soup (with the right aspect ratio and with the right pixelization)
+
+The other side of the hero section should have boldly-written words in large print, lettering inviting people to not miss the opportunity to buy from your online store
+
+Main Section
+Have a side panel on the left of the main section with items listed there and connecting users to the main section / product cards
+
+Have at least three rows on the landing page...on the right side of the side panel...with each row have 5 product cards
+
+The product cards should identify the product boldly, the quantity and the price in Naira and add a hover effect in the price text and background color changes to a different color from its original color.
+
+Footer
+
+Let the landing page also have a footer that has all the social media l
+
+Build the page using HTML, CSS and / or Tailwind CSS and also use the IDE visual studio code
+
+Make the site fully responsive for mobile users, since many take-away orders will come from smartphones.
+
+Ensure that the Menu and Footer are sticky
+
+
+
+***********customer's Service*************
+i am a UX designer for Nigerian food delivery brands. 
+Design me an ellaborated customer servic epage
+Brand: MamaPutOnline 
+Target: Busy workers, students, and families in Port Harcourt who want authentic Naija food fast
+Tone: Warm, confident, "like your favorite aunty who cooks well", no grammar. Mix English + light Pidgin.
+Goal: Make visitor order immediately.
+
+Task: Write a SERVICES section for the landing page.
+
+Requirements:
+1. 1 H1 headline: 6-8 words, benefit-driven, mention speed + taste
+2. 1 subheadline: 1 sentence explaining the core promise 
+3. 3 service cards. Each card needs: 
+   - Card title: 2-3 words 
+   - Description: 20-25 words, focus on pain point → solution
+   - Icon suggestion: Font Awesome icon name
+4. 1 CTA button text: 3 words max, action verb
+Be specific on the services  we render.
+do this with Html and tailwind css, no java script in vs code . it should maintain the same  menu bar and  footer , having the both sticky. 
+Thank you Gemini you're the best 
+
+
+*****************Contact***********************
+You are a UX copywriter optimizing forms for WhatsApp-first Nigerian businesses.
+
+Brand: Mama Put Online
+Context: Users will order via form, but we reply on WhatsApp in 5 mins. 80% mobile traffic.
+Goal: Get name + phone + address + order details with zero friction.
+
+Task: Write all copy for Contact/Order form section.
+
+Requirements:
+1. H2 headline: Make user feel chef is waiting for their order
+2. Subheadline: Set expectation: reply time + hours
+3. Form field labels: Rename boring labels to conversational ones. 5 fields max
+4. Placeholder text: For each field, give 1 example in quotes
+5. Submit button text: Action + benefit, 4 words max
+6. Text under button: Kill last objection about spam/calls
+
+this section should contain our socioal media handle ranging from Facebook, Twitter, Whatsapp, Instagram, Linkedin. and also have a location map and indicate our location in Port Harcourt . 
+ Write this Code using html and tailwind css in vs Code
+
+ 
+
+****************about page *****************
+ please my Gee,  build me an about page of this my brand with the heading about  us. in the hero section, it will vertically divided left hand side having a picture of a beautiful modern kitchen containing different Nigerian meal on the table, at the other side tell our background story , we were founded in the year 2023/06/10. talk about our challenges  at the inception and after success.
+
+in another section talk about the CEO of this brand  with her picture  sitting side by side with the with a little background story of hers.
+
+another section has the list of our top staff with there pictures respectively.
+
+another section has the picture and the history of the best awarded staff with her success story, sitting side by side.
+run this project using Html and Tailwind css, no JS . should be done in VS code
+
+
+
+
+
+
+
+
+
+
+
+
